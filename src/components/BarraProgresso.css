@@ -1,0 +1,38 @@
+.time-progress {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .progress-bar-container {
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    transition: width 0.5s ease;
+  }
+  
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* Adicione estes estilos se quiser diferentes cores para diferentes níveis de progresso */
+  .progress-bar.low {
+    background: linear-gradient(90deg, #ff3b30, #ff9500);
+  }
+  
+  .progress-bar.medium {
+    background: linear-gradient(90deg, #ff9500, #ffcc00);
+  }
+  
+  .progress-bar.high {
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  }
